@@ -1,0 +1,36 @@
+{
+  "$schema": "https://recomp.fyi/schema/v1.json",
+  "game": "Super Mario Galaxy",
+  "system": "Wii",
+  "type": "recomp",
+  "original": {
+    "region": "Europe",
+    "revision": "Rev 0",
+    "serial": "RMGP01"
+  },
+  "project": "Super Mario Galaxy native PC build",
+  "status": "in-progress",
+  "targets": [
+    "Windows",
+    "Linux"
+  ],
+  "toolchain": "wii-recomp (static recompilation, PowerPC to C)",
+  "approach": "Static recompilation of the disc's own code on the player's PC; bring your own disc, no game files distributed.",
+  "maintainers": [
+    {
+      "name": "SirWinstonChurchillTheFirst",
+      "link": "https://github.com/SirWinstonChurchillTheFirst"
+    }
+  ],
+  "links": [
+    {
+      "label": "Runtime",
+      "url": "https://github.com/SirWinstonChurchillTheFirst/wii-recomp"
+    },
+    {
+      "label": "Ko-fi",
+      "url": "https://ko-fi.com/krogger"
+    }
+  ],
+  "notes": "Shows the title screen (\"Press both A and B\") and the file select. About 59 fps on both machines. Tested on Windows 11 (RTX 3070 Ti) and on a Linux mini PC (Ryzen 3 4350GE, Vega 6) with scripted inputs; nothing here says the game is playable to the end. Built with AI assistance (Claude)."
+}
