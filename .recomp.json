@@ -32,5 +32,5 @@
       "url": "https://ko-fi.com/krogger"
     }
   ],
-  "notes": "Creates a file and plays the first area at 60 fps, no graphics errors seen. Tested on Windows 11 and on the Linux mini PC by playing into the first real scene (mini PC: the Star Festival, walking and jumping, 54.7 fps with dips to about 40). Nothing here says the game is playable to the end. Built with AI assistance (Claude)."
+  "notes": "Creates a file and plays the first area at 60 fps, no graphics errors seen. Tested on Windows 11 and on the Linux mini PC by playing into the first real scene (mini PC: the Star Festival, walking and jumping, 54.7 fps with dips to about 40). With the current runtime version the game was started and run through its menus again on the mini PC (no stops, frame times as before); the scene named here was played with the version before. Nothing here says the game is playable to the end. Built with AI assistance (Claude)."
 }
